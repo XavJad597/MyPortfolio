@@ -40,9 +40,9 @@ body{
    margin:0;
    border:0;
    padding:0;
-   background-image: linear-gradient(to top right,#F20E25,#F38466 ,#F8A45B,#975D6B,#996373);
-}
+   background-color: #332F2E;
 
+}
 h1{
      font-family: 'Roboto Slab',"ariel";
     font-size:25px;  
@@ -235,36 +235,45 @@ h4{
     
  }
 
- .NavigationBar li {
+ .NavigationBar ul {
+       float:left;
+ }
+
+ .NavigationBar ul li {
     float: left;
     list-style: none;
-    padding: 20px 8px ;
+    padding: 15px 5px ;
     font-family: "Roboto Slab",'Ariel';
     font-size: 16px;
     color: #222;
     text-decoration: none;
+    position: relative;
     
     
  }
 
- .NavigationBar li a {
+ .NavigationBar ul li a {
     text-decoration: none;
     display: block;
     list-style: none;
     
+    
  }
 
-.NavigationBar  li ul {
+.NavigationBar ul ul li {
     display:block;
     float: left;
     list-style: none;
-    padding: 22px 20px;
-    position: relative;
+    padding: 10px 5px;
     text-decoration: none;
     
     
     
     
+}
+.NavigationBar ul ul {
+    list-style: none;
+    position:relative;
 }
 
 .NavigationBar ul li a {
@@ -272,18 +281,19 @@ h4{
     font-family: 'Roboto Slab','Ariel';
     color:#222;
     font-size:15px;
-    padding:30px 12px;
+    padding:16px 10px;
     text-decoration: none;
-    list-style: none;
+ 
+ 
 }
 
-.NavigationBar ul li  ul{ 
-    display: block;
-    position: absolute;
+.NavigationBar   ul li ul {
+    display:block;
+    position:absolute;
+    background-color: #B07D79;
+    z-index: 1;
     
-
 }
-
 
 
 
