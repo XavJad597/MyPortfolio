@@ -281,20 +281,31 @@ h4{
     font-family: 'Roboto Slab','Ariel';
     color:#222;
     font-size:15px;
-    padding:16px 10px;
+    padding:16px 7px;
     text-decoration: none;
- 
- 
 }
+
+
 
 .NavigationBar   ul li ul {
     display:block;
     position:absolute;
-    background-color: #B07D79;
+    background-color: #368db6;
+    padding: 10px -8px;
+    margin: -4px;
     z-index: 1;
     
 }
 
+.NavigationBar   ul li ul li a {
+    padding: 8px 8px;
+   
+    
+}
+
+NavigationBar   ul li ul :hover{
+    background-color: #BD95B3;
+}
 
 
 /* this is the buttons on the topbar?*/

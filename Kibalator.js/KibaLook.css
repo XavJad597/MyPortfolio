@@ -27,6 +27,7 @@ background-color:#333333;
     border: 2px, solid #333333;
     outline: none;
     background-color: #b7b4e0;
+    grid-column: auto;
   }
 
     .calculator-grid > button:hover {
@@ -64,6 +65,6 @@ background-color:#333333;
 
   .output .current-operand{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
