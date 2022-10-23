@@ -14,10 +14,10 @@ head{
 }
 
 h1{
-    color: #dedede;
+    color: #151414;
     font-family:"Roboto Slab","ariel";
     position:relative;
-    bottom:-100px;
+    bottom:-10px;
     left:500px;
     z-index: 1;
     font-size:30px;
@@ -226,7 +226,7 @@ h4{
 /*this is the navbar settings?*/
  .NavigationBar {
     width:100%;
-    height:60px;
+    height:75px;
     position:relative;
     bottom: 280px;
     background-color:#fff;
@@ -237,6 +237,8 @@ h4{
 
  .NavigationBar ul {
        float:left;
+       position:relative;
+       bottom:-20px;
  }
 
  .NavigationBar ul li {
@@ -294,6 +296,7 @@ h4{
     padding: 10px -8px;
     margin: -4px;
     z-index: 1;
+    bottom:-235px;
     
 }
 
