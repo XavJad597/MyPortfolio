@@ -24,9 +24,6 @@ h1{
    
 }
 
-
-
-
 #profile-picture {
     position: relative;
     bottom:-100px;
@@ -35,14 +32,20 @@ h1{
     height: 200px;
     border-radius: 100px;
 }
+
 body{
    font-family: 'Tiro Telugu','Open Sans' ;
    margin:0;
    border:0;
    padding:0;
-   background-color: #332F2E;
-
+   background-color: #CAF0F8;
+   background-size:3000px 1000px;
+   background-position:center;
+   background-repeat: no-repeat;
+   
 }
+
+
 h1{
      font-family: 'Roboto Slab',"ariel";
     font-size:25px;  
@@ -55,7 +58,7 @@ h3{
     font-size:large;
     position: relative;
     bottom:180px;
-    left:190px;
+    left:450px;
 }
  
 h4{
@@ -229,7 +232,7 @@ h4{
     height:75px;
     position:relative;
     bottom: 280px;
-    background-color:#fff;
+    background-color:#00B4D8;
    
     
     
@@ -244,7 +247,7 @@ h4{
  .NavigationBar ul li {
     float: left;
     list-style: none;
-    padding: 15px 5px ;
+    padding: 6px 5px ;
     font-family: "Roboto Slab",'Ariel';
     font-size: 16px;
     color: #222;
@@ -266,7 +269,7 @@ h4{
     display:block;
     float: left;
     list-style: none;
-    padding: 10px 5px;
+    padding: 9px 5px;
     text-decoration: none;
     
     
@@ -292,7 +295,7 @@ h4{
 .NavigationBar   ul li ul {
     display:block;
     position:absolute;
-    background-color: #368db6;
+    background-color: #0077B6;
     padding: 10px -8px;
     margin: -4px;
     z-index: 1;
@@ -306,12 +309,17 @@ h4{
     
 }
 
-NavigationBar   ul li ul :hover{
-    background-color: #BD95B3;
+.NavigationBar ul li ul li :hover {
+    background-color: #0876bff2;
+    box-shadow: 10px;
+}
+
+.NavigationBar ul li :hover{
+    background-color: #168cdaf2;
 }
 
 
 /* this is the buttons on the topbar?*/
-
+/*#168cdaf2*/
 
 
