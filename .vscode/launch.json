@@ -8,7 +8,7 @@
             "name": "Launch Chrome against localhost",
             "request": "launch",
             "type": "chrome",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder} \\kibaFace.html\\Kibalator.js\\kibaworkings.js"
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder} \\kibaFace.html\\Kibalator.js\\kibaworkings.js",
         },
-    ],
+    ]

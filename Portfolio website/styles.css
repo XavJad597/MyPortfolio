@@ -3,6 +3,8 @@
 @import url(Playfair Display);
 @import url(Qwitcher Grypen);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
+
 
 * {
     margin:0;
@@ -47,18 +49,23 @@ body{
 
 
 h1{
-     font-family: 'Roboto Slab',"ariel";
+     font-family: 'Playfair Display',"Montserrat","Sans-serif";
     font-size:25px;  
   
 }
 
 h3{
-    font:'Tiro Telugu';
-    font-family: 'Tiro Telugu','Courier New', Courier, monospace;
-    font-size:large;
+    font-family: "Playfair Display","Montserrat","San-serif";
+    font-size:20px;
     position: relative;
-    bottom:180px;
-    left:450px;
+    bottom:-140px;
+    left:500px;
+    padding: 8px 5px;
+    margin: 10px 20px;
+    border-radius: 25%;
+    background-color: #273F6F;
+    display:block;
+    justify-content: center;
 }
  
 h4{
